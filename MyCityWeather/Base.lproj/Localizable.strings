@@ -1,0 +1,65 @@
+/*
+ Localizable.strings
+ MyCityWeather
+ */
+
+
+// MARK: - WelcomeScreenViewController
+
+WelcomeScreenVC_NavigationBarTitle = "Hello";
+
+WelcomeScreenVC_Description = "Welcome to the MyCityWeatherApp ";
+WelcomeScreenVC_SaveButtonTitle = "Next";
+
+
+// MARK: - SetPermissionsViewController
+
+SetPermissionsVC_NavigationBarTitle = "Location Access";
+
+SetPermissionsVC_Description = "Your permission is required to access location to fetch weather details";
+SetPermissionsVC_ButtonTitle = "Configure";
+
+
+// MARK: - NearbyLocationsTableViewController
+
+LocationsListVCT_TableViewSectionHeader1 = "Weather in My City";
+LocationsListVCT_TableViewSectionHeader2 = "Weather In Closeby Cities";
+
+LocationsListVCT_RefreshPullHandle = "Refresh by pull";
+
+LocationsListVCT_LocationAlert_Title = "Your currrent Location Access was Denied";
+LocationsListVCT_LocationAlert_Message = "Require permission to use your location";
+LocationsListVCT_LocationAlert_Action1 = "Dismiss";
+LocationsListVCT_LocationAlert_Action2 = "Settings";
+
+LocationsListVCT_SortAlert_Cancel = "Cancel";
+
+LocationsListVCT_BackButtonTitle = "Back";
+
+LocationsListVCT_AlertNoData = "Could not load info. Check network or API key";
+
+
+
+
+// MARK: - SettingsTableViewController
+
+SettingsVCT_BackButtonTitle = "Weather";
+
+SettingsVCT_NavigationBarTitle = "Settings";
+
+SettingsVCT_SectionTitle1 = "My City";
+SettingsVCT_SectionTitle2 = "API Key from Open Weather";
+SettingsVCT_SectionTitle3 = "Unit of Temperature";
+
+SettingsVCT_Results = "Display Results";
+
+
+// MARK: - SettingsInputTableViewController
+
+SettingsInputVCT_NavBarTitle_Mode_EnterMyCity = "Set My City";
+SettingsInputVCT_NavBarTitle_Mode_EnterAPIKey = "Enter Open Weather API Key";
+
+InputSettingsVCT_SectionTitle_Mode_EnterMyCity = "Enter My City Name";
+InputSettings_SectionTitle_Mode_EnterAPIKey = "Enter Open Weathr API Key";
+
+InputSettings_EnterAPIKey = "API key will be 32 characters";

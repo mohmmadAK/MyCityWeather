@@ -1,0 +1,6 @@
+/*
+ InfoPlist.strings
+ My City Weather
+ */
+
+NSLocationWhenInUseUsageDescription = "MyCityWeather needs to use your location, in order to determine surrounding cities and deliver weather information based on this data.";
